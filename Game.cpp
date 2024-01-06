@@ -64,7 +64,7 @@ int main()
     int target=(rand()%10)+1;
     int attempts=1;
     int n;
-    cout<<"Input your guess: ";
+    cout<<"Input your guess (1 to 10): ";
     cin>>n;
     game(n,target,attempts);
     return 0;
